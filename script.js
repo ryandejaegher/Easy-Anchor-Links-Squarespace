@@ -1,5 +1,4 @@
 <!-- Add Section IDs for anchor links -->
-<script>
 (function(){
 	window.addEventListener('DOMContentLoaded', function() {
 	var sections = document.querySelectorAll('section');
@@ -15,4 +14,3 @@ sections.forEach((section,i) => {
 })
 
 })()
-</script>
