@@ -1,5 +1,6 @@
 // Add Section IDs for anchor links
 (function(){
+
 	window.addEventListener('DOMContentLoaded', function() {
 	var sections = document.querySelectorAll('section');
     var windowPath = window.location.pathname;
@@ -12,6 +13,7 @@
 sections.forEach((section,i) => {
   section.id = `${anchorID}-${i+1}`;
 })
+alert('Hey Ryan')
 })
 
 })()
