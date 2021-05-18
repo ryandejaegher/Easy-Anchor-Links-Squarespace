@@ -13,7 +13,7 @@
 sections.forEach((section,i) => {
   section.id = `${anchorID}-${i+1}`;
 })
-alert('Hey Ryan')
+alert('Hey Dave')
 })
 
 })()
